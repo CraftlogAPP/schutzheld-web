@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Datenschutzerklärung — Pflichtpilot</title>
+  <meta name="robots" content="all" />
+  <meta name="theme-color" content="#0B1220" />
+  <style>
+    :root {
+      --bg: #0B1220; --surface: #131C2E; --border: #27334A;
+      --text: #E7ECF3; --muted: #9AA7BD; --blue: #2563EB;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65; -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px 64px; }
+    header { padding: 28px 0; display: flex; align-items: center; gap: 12px; }
+    .logo { width: 36px; height: 36px; background: var(--blue); border-radius: 9px; display: grid; place-items: center; }
+    .brand { font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
+    a { color: #8FB4FF; }
+    h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.5px; margin: 18px 0 6px; }
+    h2 { font-size: 19px; font-weight: 700; margin: 30px 0 8px; }
+    p, li { color: var(--text); font-size: 15px; margin-bottom: 8px; }
+    ul { padding-left: 22px; }
+    .muted { color: var(--muted); font-size: 13px; }
+    .note { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; margin: 16px 0; font-size: 14px; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; margin: 8px 0 4px; font-size: 14px; }
+    td, th { border: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: top; }
+    th { background: var(--surface); }
+    .back { display: inline-block; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="logo">
+        <svg width="22" height="22" viewBox="0 0 100 100" aria-hidden="true">
+          <g transform="translate(50,50) rotate(-20) scale(40)">
+            <polygon points="0.9167,0 0.4167,0 -0.8333,0.1667 -0.8325,0.75" fill="#CEE0FF"/>
+            <polygon points="0.9167,0 -0.8325,-0.75 -0.8333,-0.1667 0.4167,0" fill="#FFFFFF"/>
+          </g>
+        </svg>
+      </span>
+      <span class="brand">Pflichtpilot</span>
+    </header>
+
+    <h1>Datenschutzerklärung</h1>
+    <p class="muted">Stand: 25.06.2026 · Gilt für die App „Pflichtpilot" und die Website pflichtpilot.de</p>
+
+    <div class="note">
+      Hinweis: Entwurf — vor Veröffentlichung von einer datenschutzkundigen Person prüfen lassen.
+    </div>
+
+    <h2>1. Verantwortlicher</h2>
+    <p>
+      Alexander Pfalz<br/>
+      Hofsatz 29<br/>
+      7082 Donnerskirchen, Österreich<br/>
+      E-Mail: 2easy4trash@gmail.com
+    </p>
+
+    <h2>2. Überblick &amp; Rollenverteilung</h2>
+    <p>
+      Pflichtpilot ist eine Arbeitsschutz-Compliance-App für Betriebe. Wir verarbeiten Daten in zwei Rollen:
+    </p>
+    <ul>
+      <li><strong>Eigenverantwortlich</strong> für Konto-, Vertrags- und Nutzungsdaten der Betriebsinhaber/innen
+        (unsere Kund/innen).</li>
+      <li><strong>Als Auftragsverarbeiter</strong> für die Mitarbeiterdaten, die ein Betrieb in der App erfasst
+        (Unterweisungs- und Nachweisdaten). Hier ist der jeweilige Betrieb der Verantwortliche; wir verarbeiten
+        diese Daten nur weisungsgebunden auf Grundlage eines Auftragsverarbeitungsvertrags (AVV) nach Art. 28 DSGVO.</li>
+    </ul>
+
+    <h2>3. Verarbeitete Daten, Zwecke und Rechtsgrundlagen</h2>
+    <table>
+      <tr><th>Datenkategorie</th><th>Zweck</th><th>Rechtsgrundlage</th></tr>
+      <tr><td>Konto: E-Mail, ggf. Name (über Supabase Auth / Google Sign-In)</td><td>Registrierung, Login, Vertragsabwicklung</td><td>Art. 6 Abs. 1 lit. b DSGVO</td></tr>
+      <tr><td>Betriebsdaten: Firmenname, Branche, Land, Mitarbeiterzahl</td><td>Bereitstellung der App-Funktionen</td><td>Art. 6 Abs. 1 lit. b DSGVO</td></tr>
+      <tr><td>Mitarbeiterdaten: Name, Tätigkeit, optional E-Mail/Telefon, Eintrittsdatum</td><td>Zuweisung &amp; Nachweis von Unterweisungen</td><td>Art. 6 Abs. 1 lit. c DSGVO (gesetzl. Pflicht des Betriebs), Verarbeitung im Auftrag</td></tr>
+      <tr><td>Unterweisungs-Nachweise: Prüfergebnis, Zeitstempel, digitale Unterschrift (Bild), Geräteinfo</td><td>Prüffester Compliance-Nachweis</td><td>Art. 6 Abs. 1 lit. c DSGVO, Verarbeitung im Auftrag</td></tr>
+      <tr><td>Zahlungs-/Abo-Status (über RevenueCat, Apple/Google)</td><td>Verwaltung kostenpflichtiger Abos</td><td>Art. 6 Abs. 1 lit. b DSGVO</td></tr>
+      <tr><td>Technische Nutzungs-/Fehlerdaten</td><td>Betrieb, Sicherheit, Fehlerbehebung</td><td>Art. 6 Abs. 1 lit. f DSGVO</td></tr>
+    </table>
+
+    <h2>4. KI-Generierung von Unterweisungsinhalten</h2>
+    <p>
+      Zum Erstellen von Unterweisungs- und Gefährdungsbeurteilungs-Vorlagen rufen wir über einen eigenen
+      Server-Proxy (Cloudflare Worker, EU) das KI-Modell <strong>Anthropic Claude</strong> auf. An die KI werden
+      ausschließlich <strong>nicht-personenbezogene</strong> Parameter übergeben (z. B. Branche, Tätigkeit, gewählte Themen, Land).
+      <strong>Personenbezogene Mitarbeiterdaten werden nicht an die KI übermittelt.</strong> Die generierten Inhalte
+      sind eine fachliche Hilfestellung und ersetzen keine individuelle Prüfung.
+    </p>
+
+    <h2>5. Empfänger / Auftragsverarbeiter</h2>
+    <ul>
+      <li><strong>Supabase</strong> (Datenbank, Auth, Datei-Speicher) — Hosting in der EU-Region.</li>
+      <li><strong>Cloudflare</strong> (KI-Proxy / Worker) — EU-Verarbeitung.</li>
+      <li><strong>Anthropic</strong> (KI-Modell Claude) — siehe Abschnitt 4, ohne personenbezogene Daten.</li>
+      <li><strong>RevenueCat</strong> sowie <strong>Apple</strong> / <strong>Google</strong> — Abo- und Zahlungsabwicklung über die App-Stores.</li>
+    </ul>
+    <p class="muted">
+      Soweit Verarbeitungen außerhalb der EU/des EWR stattfinden, erfolgt dies auf Grundlage von
+      EU-Standardvertragsklauseln bzw. eines Angemessenheitsbeschlusses.
+    </p>
+
+    <h2>6. Speicherdauer</h2>
+    <p>
+      Konto- und Betriebsdaten werden für die Dauer der Nutzung gespeichert und nach Kontolöschung gelöscht.
+      Unterweisungs-Nachweise unterliegen gesetzlichen Aufbewahrungspflichten und werden entsprechend den
+      Vorgaben des jeweiligen Betriebs aufbewahrt. Nachweis-Datensätze sind unveränderlich gespeichert, um die
+      Beweiskraft zu sichern.
+    </p>
+
+    <h2>7. Ihre Rechte</h2>
+    <p>
+      Sie haben das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung
+      (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21 DSGVO). Bei Mitarbeiterdaten richten Sie
+      sich bitte an den jeweiligen Betrieb als Verantwortlichen. Sie können sich zudem bei einer Aufsichtsbehörde
+      beschweren.
+    </p>
+
+    <h2>8. Kontolöschung</h2>
+    <p>
+      Sie können Ihr Konto und alle zugehörigen Daten jederzeit direkt in der App unter
+      „Einstellungen → Konto löschen" endgültig löschen. Die Löschung umfasst Betriebs- und
+      Mitarbeiterdaten, Unterweisungen, Nachweise und Unterschriften und kann nicht rückgängig
+      gemacht werden. Alternativ können Sie die Löschung per E-Mail an
+      2easy4trash@gmail.com beantragen.
+    </p>
+
+    <a class="back" href="index.html">← Zurück zur Startseite</a>
+  </div>
+</body>
+</html>
