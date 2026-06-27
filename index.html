@@ -36,6 +36,14 @@
     .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 22px; }
     .card h3 { font-size: 17px; margin-bottom: 8px; }
     .card p { color: var(--muted); font-size: 14px; }
+    .apps-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; padding: 8px 0 16px; }
+    .app-card { display: flex; align-items: center; gap: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 18px 20px; text-decoration: none; color: inherit; transition: border-color .2s, transform .2s; }
+    .app-card:hover { border-color: var(--blue); transform: translateY(-3px); }
+    .app-card img { width: 56px; height: 56px; border-radius: 13px; flex-shrink: 0; border: 1px solid var(--border); }
+    .app-card .meta { min-width: 0; }
+    .app-card h3 { font-size: 17px; margin-bottom: 4px; }
+    .app-card p { color: var(--muted); font-size: 13px; margin-bottom: 6px; }
+    .app-card .open { color: var(--blue); font-weight: 700; font-size: 13px; }
     .note { text-align: center; color: var(--muted); font-size: 13px; padding: 28px 0; }
     .legal { color: var(--muted); font-size: 12px; line-height: 1.7; border-top: 1px solid var(--border); padding: 28px 0 48px; }
     .legal a { color: var(--muted); }
@@ -103,22 +111,47 @@
 
     <h2 style="text-align:center;margin-top:24px;font-size:22px;font-weight:800;letter-spacing:-0.3px;">Mehr von uns</h2>
     <p class="note" style="padding:6px 0 8px;">Weitere Apps für deinen Betrieb.</p>
-    <section class="grid">
-      <div class="card">
-        <h3>CraftLog</h3>
-        <p>Die App für Handwerksbetriebe.</p>
-        <p class="note" style="padding:6px 0 0;">Bald verfügbar.</p>
-      </div>
-      <div class="card">
-        <h3>RouteLog</h3>
-        <p>Fahrten &amp; Routen einfach dokumentieren.</p>
-        <p class="note" style="padding:6px 0 0;">Bald verfügbar.</p>
-      </div>
-      <div class="card">
-        <h3>Archio</h3>
-        <p>Dokumente sicher archivieren.</p>
-        <p class="note" style="padding:6px 0 0;">Bald verfügbar.</p>
-      </div>
+    <section class="apps-grid">
+      <a class="app-card" href="https://craftlogapp.github.io/craftlog-web" target="_blank" rel="noopener">
+        <img src="craftlog-icon.png" alt="CraftLog" width="56" height="56" />
+        <div class="meta">
+          <h3>CraftLog</h3>
+          <p>Die App für Handwerksbetriebe – Projekte, Material und Stunden im Blick.</p>
+          <span class="open">Ansehen →</span>
+        </div>
+      </a>
+      <a class="app-card" href="https://craftlogapp.github.io/routelog-web" target="_blank" rel="noopener">
+        <img src="routelog-icon.png" alt="RouteLog" width="56" height="56" />
+        <div class="meta">
+          <h3>RouteLog</h3>
+          <p>Automatisches Fahrtenbuch – Fahrten per KI sortiert, steuerfertig als PDF.</p>
+          <span class="open">Ansehen →</span>
+        </div>
+      </a>
+      <a class="app-card" href="https://craftlogapp.github.io/archio-web" target="_blank" rel="noopener">
+        <img src="archio-icon.png" alt="Archio" width="56" height="56" />
+        <div class="meta">
+          <h3>Archio</h3>
+          <p>Dokumente scannen und per KI verstehen – Belege, Verträge und mehr.</p>
+          <span class="open">Ansehen →</span>
+        </div>
+      </a>
+      <a class="app-card" href="https://baumdex-portal.vercel.app" target="_blank" rel="noopener">
+        <img src="baumdex-icon.png" alt="BaumDex" width="56" height="56" />
+        <div class="meta">
+          <h3>BaumDex</h3>
+          <p>Digitales Baumkataster & Baumkontrolle – Verkehrssicherung mobil nachweisen.</p>
+          <span class="open">Ansehen →</span>
+        </div>
+      </a>
+      <a class="app-card" href="https://craftlogapp.github.io/pruefdex-landing" target="_blank" rel="noopener">
+        <img src="pruefdex-icon.png" alt="PrüfDex" width="56" height="56" />
+        <div class="meta">
+          <h3>PrüfDex</h3>
+          <p>DGUV-V3-Prüfungen mobil dokumentieren – Protokoll & Plakette per QR.</p>
+          <span class="open">Ansehen →</span>
+        </div>
+      </a>
     </section>
 
     <footer class="legal">
