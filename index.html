@@ -163,6 +163,69 @@
     .suite-list li::before { content: "★"; color: var(--blue2); position: absolute; left: 0; }
     .suite-how { color: var(--muted); font-size: 13.5px; margin-top: 18px; margin-bottom: 20px; }
 
+    /* Dashboard showcase */
+    .dash-panel { display: grid; grid-template-columns: 1fr 1fr; gap: 38px; align-items: center;
+      background: linear-gradient(135deg, rgba(37,99,235,.12), var(--surface2) 62%);
+      border: 1px solid rgba(91,141,247,.35); border-radius: 22px; padding: 38px 34px; margin-top: 30px;
+      position: relative; overflow: hidden;
+      box-shadow: 0 0 0 1px rgba(91,141,247,.18), 0 24px 60px rgba(37,99,235,.14); }
+    .dash-panel::before { content: ''; position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(560px 300px at 88% 6%, rgba(91,141,247,.18), transparent 70%); }
+    .dash-panel > * { position: relative; }
+    @media (max-width: 820px) { .dash-panel { grid-template-columns: 1fr; gap: 30px; padding: 28px 22px; } }
+    .dash-panel .sec-eyebrow, .dash-panel h2 { text-align: left; }
+    .dash-panel .sec-lead { text-align: left; margin: 10px 0 0; }
+    .dash-list { list-style: none; margin: 20px 0 26px; }
+    .dash-list li { position: relative; padding: 6px 0 6px 32px; font-size: 14.5px; }
+    .dash-list li::before { content: '✓'; position: absolute; left: 0; top: 7px; width: 21px; height: 21px;
+      border-radius: 7px; display: flex; align-items: center; justify-content: center;
+      font-size: 11.5px; font-weight: 800; color: #9DC0FF;
+      background: rgba(37,99,235,.20); border: 1px solid rgba(91,141,247,.38); }
+
+    /* Browser mockup */
+    .browser { display: block; background: #0B1322; border: 1px solid rgba(91,141,247,.28); border-radius: 16px;
+      overflow: hidden; text-decoration: none; color: inherit;
+      box-shadow: 0 30px 80px rgba(3,8,26,.65), 0 0 60px rgba(37,99,235,.12);
+      transform: rotate(1.4deg); transition: transform .35s ease; }
+    .dash-panel:hover .browser { transform: rotate(0deg) translateY(-4px); }
+    .b-bar { display: flex; align-items: center; gap: 7px; padding: 10px 13px;
+      background: rgba(255,255,255,.04); border-bottom: 1px solid rgba(255,255,255,.07); }
+    .b-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .b-dot.r { background: #F87171; } .b-dot.y { background: #FBBF24; } .b-dot.g { background: #34D399; }
+    .b-url { flex: 1; margin-left: 8px; font-size: 11px; color: var(--muted); background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.07); border-radius: 999px; padding: 4px 12px; text-align: center;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .b-url b { color: #BFD3FF; font-weight: 650; }
+    .b-body { padding: 15px 15px 17px; }
+    .b-head { display: flex; align-items: center; gap: 9px; margin-bottom: 13px; }
+    .b-head img { width: 26px; height: 26px; border-radius: 8px; }
+    .b-title { font-size: 13px; font-weight: 750; letter-spacing: -.2px; flex: 1; text-align: left; }
+    .b-live { display: inline-flex; align-items: center; gap: 6px; font-size: 10px; font-weight: 750; color: #4ADE80;
+      background: rgba(74,222,128,.10); border: 1px solid rgba(74,222,128,.30); border-radius: 999px; padding: 3px 9px; }
+    .b-live::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #4ADE80;
+      box-shadow: 0 0 8px rgba(74,222,128,.9); animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+    .b-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; }
+    .b-stat { background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.08); border-radius: 11px;
+      padding: 10px 6px; text-align: center; }
+    .b-stat .n { font-size: 17px; font-weight: 850; letter-spacing: -.4px; }
+    .b-stat .n.ok { color: #4ADE80; }
+    .b-stat .l { font-size: 9.5px; font-weight: 650; color: var(--muted); margin-top: 2px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .b-rows { margin-top: 9px; display: grid; gap: 7px; }
+    .b-row { display: flex; align-items: center; gap: 9px; background: rgba(255,255,255,.03);
+      border: 1px solid rgba(255,255,255,.07); border-radius: 11px; padding: 8px 11px; }
+    .b-check { width: 20px; height: 20px; border-radius: 7px; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center; font-size: 10.5px; font-weight: 800;
+      color: #4ADE80; background: rgba(74,222,128,.12); border: 1px solid rgba(74,222,128,.32); }
+    .b-row .t { flex: 1; min-width: 0; text-align: left; }
+    .b-row .t b { display: block; font-size: 11px; font-weight: 700;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .b-row .t small { display: block; font-size: 9.5px; color: var(--muted); }
+    .b-pdf { font-size: 9px; font-weight: 800; letter-spacing: .4px; color: #BFD3FF;
+      background: rgba(37,99,235,.20); border: 1px solid rgba(91,141,247,.38);
+      border-radius: 6px; padding: 3px 7px; flex-shrink: 0; }
+
     /* Scroll reveal */
     .reveal { opacity: 1; }
     .reveal.pre { opacity: 0; transform: translateY(18px); }
@@ -247,10 +310,55 @@
     </section>
 
     <section id="dashboard">
-      <div class="sec-eyebrow">Web-Dashboard</div>
-      <h2>SchutzDex auch am PC</h2>
-      <p class="sec-lead">Mitarbeiter, Unterweisungen und prüffeste Nachweise — direkt im Browser. Melde dich einfach mit deinem App-Konto an — wie in der App auch per Google oder mit E-Mail + Passwort.</p>
-      <a class="btn" href="https://dashboard.dexware.app/app/schutzdex">Dashboard öffnen →</a>
+      <div class="dash-panel reveal">
+        <div>
+          <div class="sec-eyebrow">Web-Dashboard</div>
+          <h2>SchutzDex auch am PC</h2>
+          <p class="sec-lead">Mitarbeiter, Unterweisungen und prüffeste Nachweise — direkt im Browser, mit denselben Live-Daten wie in der App.</p>
+          <ul class="dash-list">
+            <li>Mitarbeiter &amp; Unterweisungen am großen Bildschirm verwalten</li>
+            <li>Prüffeste PDF-Nachweise direkt im Browser erstellen</li>
+            <li>Gleiche Daten wie in der App — live synchronisiert</li>
+            <li>Anmeldung mit deinem App-Konto — per Google oder E-Mail + Passwort</li>
+          </ul>
+          <a class="btn" href="https://dashboard.dexware.app/app/schutzdex">Dashboard öffnen →</a>
+        </div>
+        <a class="browser" href="https://dashboard.dexware.app/app/schutzdex" aria-label="SchutzDex-Dashboard öffnen">
+          <div class="b-bar">
+            <span class="b-dot r"></span><span class="b-dot y"></span><span class="b-dot g"></span>
+            <span class="b-url">🔒 <b>dashboard.dexware.app</b>/app/schutzdex</span>
+          </div>
+          <div class="b-body">
+            <div class="b-head">
+              <img src="schutzheld-icon.png" alt="" />
+              <span class="b-title">SchutzDex Dashboard</span>
+              <span class="b-live">Live</span>
+            </div>
+            <div class="b-stats">
+              <div class="b-stat"><div class="n">12</div><div class="l">Mitarbeiter</div></div>
+              <div class="b-stat"><div class="n">34</div><div class="l">Unterweisungen</div></div>
+              <div class="b-stat"><div class="n ok">100&nbsp;%</div><div class="l">Nachweise</div></div>
+            </div>
+            <div class="b-rows">
+              <div class="b-row">
+                <span class="b-check">✓</span>
+                <span class="t"><b>Elektrische Gefährdungen</b><small>8 Mitarbeiter · Check bestanden</small></span>
+                <span class="b-pdf">PDF</span>
+              </div>
+              <div class="b-row">
+                <span class="b-check">✓</span>
+                <span class="t"><b>Arbeiten auf Leitern &amp; Tritten</b><small>5 Mitarbeiter · Check bestanden</small></span>
+                <span class="b-pdf">PDF</span>
+              </div>
+              <div class="b-row">
+                <span class="b-check">✓</span>
+                <span class="t"><b>PSA-Grundunterweisung</b><small>12 Mitarbeiter · Check bestanden</small></span>
+                <span class="b-pdf">PDF</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
     </section>
 
     <section id="suite">
