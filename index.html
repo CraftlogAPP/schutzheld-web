@@ -364,6 +364,8 @@
     .track { animation-duration: calc(var(--d) * 1.15); }
     .mp { border-radius: 28px; } .mp::before { border-radius: 23px 23px 0 0; } .mp img { border-radius: 0 0 23px 23px; }
 
+    .kicker { background: none; padding: 0; border-radius: 0; gap: 12px; font-size: 12px; text-transform: uppercase; letter-spacing: .16em; }
+    .kicker::before { content: ''; width: 30px; height: 2px; border-radius: 2px; background: var(--accent); }
     /* App-Familie: Suite-Block + Block „Weitere Apps“ (eigener Tarif) */
     .fam-self { display: inline-flex; align-items: center; gap: 7px; margin-top: 16px; padding: 6px 13px; border-radius: 99px; font-size: 14px; font-weight: 600;
       background: color-mix(in oklab, var(--accent) 16%, transparent); color: var(--accent-text); }
