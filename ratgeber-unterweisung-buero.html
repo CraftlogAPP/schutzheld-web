@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unterweisung im Büro: Themen &amp; Checkliste | SchutzDex</title>
+  <meta name="description" content="Unterweisung im Büro: Themen von Brandschutz bis Bildschirmarbeit, wie oft, Ersthelfer und Homeoffice – mit Checkliste für Deutschland und Österreich." />
+  <meta name="robots" content="all" />
+  <meta name="theme-color" content="#0B1220" />
+  <!-- seo:start -->
+  <link rel="icon" type="image/png" href="/schutzheld-icon.png" />
+  <link rel="canonical" href="https://schutzdex.dexware.app/ratgeber-unterweisung-buero.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="SchutzDex" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:title" content="Sicherheitsunterweisung im Büro: Themen, Häufigkeit und Checkliste" />
+  <meta property="og:description" content="Unterweisung im Büro: Themen von Brandschutz bis Bildschirmarbeit, wie oft, Ersthelfer und Homeoffice – mit Checkliste für Deutschland und Österreich." />
+  <meta property="og:url" content="https://schutzdex.dexware.app/ratgeber-unterweisung-buero.html" />
+  <meta property="og:image" content="https://schutzdex.dexware.app/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sicherheitsunterweisung im Büro: Themen, Häufigkeit und Checkliste" />
+  <meta name="twitter:description" content="Unterweisung im Büro: Themen von Brandschutz bis Bildschirmarbeit, wie oft, Ersthelfer und Homeoffice – mit Checkliste für Deutschland und Österreich." />
+  <meta name="twitter:image" content="https://schutzdex.dexware.app/og-image.png" />
+  <!-- seo:end -->
+  <style>
+    :root {
+      --bg: #0B1220; --surface: #131C2E; --surface2: #0F1726; --border: #27334A;
+      --text: #E7ECF3; --muted: #9AA7BD;
+      --blue: #2563EB; --blue2: #5B8DF7; --glow: rgba(37,99,235,.18);
+      --green: #4ADE80;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background:
+        radial-gradient(1100px 620px at 18% -120px, rgba(91,141,247,.20), transparent 65%),
+        radial-gradient(900px 600px at 92% 4%, rgba(37,99,235,.14), transparent 62%),
+        radial-gradient(800px 520px at 50% 115%, rgba(37,99,235,.10), transparent 60%),
+        var(--bg);
+      background-attachment: fixed;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65; -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: 44px 44px;
+      -webkit-mask-image: radial-gradient(900px 620px at 50% 0%, #000 25%, transparent 75%);
+      mask-image: radial-gradient(900px 620px at 50% 0%, #000 25%, transparent 75%);
+    }
+    a { color: #8FB4FF; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+    /* Sticky glass header */
+    .sitehead {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(11,18,32,.72);
+      -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    .sitehead .wrap { max-width: 960px; }
+    header { padding: 16px 0; display: flex; align-items: center; gap: 12px; }
+    .logo { width: 38px; height: 38px; border-radius: 10px; overflow: hidden; flex-shrink: 0;
+      box-shadow: 0 6px 18px rgba(8,16,40,.5); }
+    .logo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .brand { font-size: 19px; font-weight: 800; letter-spacing: -0.3px; }
+    .nav-spacer { flex: 1; }
+    .nav a { color: var(--muted); font-size: 14px; margin-left: 20px; }
+    .nav a:hover { color: var(--text); text-decoration: none; }
+    .nav-cta { color: var(--blue2) !important; font-weight: 700; }
+    @media (max-width: 640px) { .nav a:not(.nav-cta) { display: none; } }
+
+    /* Article */
+    article { padding: 48px 0 8px; }
+    .kicker { color: var(--blue2); font-size: 13px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; margin-bottom: 12px; }
+    h1 {
+      font-size: clamp(28px, 4.8vw, 42px); font-weight: 850; letter-spacing: -1px; line-height: 1.14;
+      margin-bottom: 18px;
+    }
+    h1 .hl { background: linear-gradient(120deg, #9DC0FF, var(--blue2)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .meta { color: var(--muted); font-size: 13.5px; margin-bottom: 8px; border-bottom: 1px solid var(--border); padding-bottom: 22px; }
+    article h2 { font-size: clamp(21px, 3.4vw, 27px); font-weight: 850; letter-spacing: -0.6px; margin: 40px 0 12px; }
+    article h3 { font-size: 18px; font-weight: 750; margin: 26px 0 8px; }
+    article p { color: #D3DBE8; font-size: 16px; margin-bottom: 14px; }
+    article ul, article ol { margin: 0 0 16px 0; padding-left: 4px; list-style: none; }
+    article li { color: #D3DBE8; font-size: 15.5px; padding: 6px 0 6px 26px; position: relative; }
+    article ul li::before { content: "✓"; color: var(--green); position: absolute; left: 0; font-weight: 800; }
+    article ol { counter-reset: step; }
+    article ol li { counter-increment: step; }
+    article ol li::before { content: counter(step); color: var(--blue2); font-weight: 800; position: absolute; left: 0; font-size: 13.5px; top: 8px; }
+    article b, article strong { color: var(--text); font-weight: 700; }
+    .lead { font-size: 18px; color: var(--muted); margin: 22px 0 8px; }
+
+    /* Callout */
+    .callout {
+      position: relative; overflow: hidden;
+      background: linear-gradient(180deg, var(--surface), var(--surface2));
+      border: 1px solid var(--border); border-radius: 18px; padding: 20px 22px; margin: 22px 0;
+    }
+    .callout::before { content: ''; position: absolute; inset: 0;
+      background: radial-gradient(340px 160px at 100% 0%, var(--glow), transparent 70%); opacity: .9; }
+    .callout > * { position: relative; }
+    .callout .ch { font-weight: 750; font-size: 16px; margin-bottom: 6px; color: var(--text); }
+    .callout p { font-size: 14.5px; margin-bottom: 0; color: var(--muted); }
+
+    /* Table */
+    .tablewrap { overflow-x: auto; margin: 20px 0; border: 1px solid var(--border); border-radius: 18px; }
+    table { width: 100%; border-collapse: collapse; min-width: 460px; }
+    th, td { text-align: left; padding: 13px 16px; font-size: 14.5px; border-bottom: 1px solid var(--border); }
+    th { background: rgba(37,99,235,.10); color: var(--text); font-weight: 750; font-size: 13px; letter-spacing: .3px; }
+    td { color: #D3DBE8; }
+    tr:last-child td { border-bottom: none; }
+    td b { color: var(--blue2); }
+
+    /* FAQ */
+    .faq { margin-top: 8px; }
+    .faq details {
+      background: linear-gradient(180deg, var(--surface), var(--surface2));
+      border: 1px solid var(--border); border-radius: 16px; padding: 4px 20px; margin-bottom: 12px;
+    }
+    .faq summary { cursor: pointer; font-weight: 700; font-size: 16px; padding: 16px 0; list-style: none;
+      display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .faq summary::-webkit-details-marker { display: none; }
+    .faq summary::after { content: "+"; color: var(--blue2); font-size: 22px; font-weight: 400; flex-shrink: 0; }
+    .faq details[open] summary::after { content: "–"; }
+    .faq details p { color: var(--muted); font-size: 15px; padding: 0 0 18px; margin: 0; }
+
+    /* CTA band */
+    .band { background: linear-gradient(135deg, #1b2c55, #101a30); border: 1px solid rgba(91,141,247,.32);
+      border-radius: 22px; padding: 40px 28px; text-align: center; box-shadow: 0 24px 60px rgba(0,0,0,.4); margin: 44px 0 8px; }
+    .band h2 { margin: 0 0 8px; }
+    .band p { color: var(--muted); margin: 0 auto 22px; max-width: 520px; }
+    .band .cta { display: inline-flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+    .btn { display: inline-block; font-size: 15.5px; font-weight: 650; padding: 14px 26px; border-radius: 12px;
+      text-decoration: none; border: 1px solid transparent; color: #fff;
+      background: linear-gradient(135deg, var(--blue2), var(--blue));
+      box-shadow: 0 10px 30px rgba(37,99,235,.35);
+      transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease; }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 14px 38px rgba(37,99,235,.45); text-decoration: none; }
+    .btn.ghost { background: rgba(255,255,255,.03); border-color: var(--border); color: var(--text); box-shadow: none; }
+    .btn.ghost:hover { border-color: var(--blue2); }
+
+    .disclaimer { color: var(--muted); font-size: 12.5px; margin: 28px 0 0; }
+    .backlink { display: inline-block; margin: 30px 0 0; color: var(--muted); font-size: 14px; }
+
+    footer.legal { color: var(--muted); font-size: 12px; line-height: 1.7; border-top: 1px solid var(--border);
+      padding: 28px 0 48px; margin-top: 40px; }
+    .legal a { color: var(--muted); }
+  </style>
+
+
+  <style>
+    /* Ratgeber-Ergänzungen (Tabelle, Kurzantwort, Weiterlesen) — neutral, passt zu hellem und dunklem Design */
+    .rg-scroll { overflow-x: auto; margin: 10px 0 22px; -webkit-overflow-scrolling: touch; }
+    .rg-table { width: 100%; border-collapse: collapse; font-size: 15px; line-height: 1.5; min-width: 520px; }
+    .rg-table th, .rg-table td { border: 1px solid rgba(127,127,127,.32); padding: 9px 11px; text-align: left; vertical-align: top; }
+    .rg-table th { background: rgba(127,127,127,.12); font-weight: 800; }
+    .rg-kurz { border: 1px solid rgba(127,127,127,.35); border-radius: 12px; padding: 16px 18px; margin: 18px 0 24px; background: rgba(127,127,127,.07); }
+    .rg-kurz > b:first-child { display: block; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; opacity: .8; }
+    .rg-kurz ul { margin: 6px 0 0; padding-left: 20px; }
+    .rg-kurz li { margin-bottom: 5px; }
+    .rg-quellen { font-size: 14px; opacity: .9; }
+    .rg-quellen li { font-size: 14px !important; margin-bottom: 4px; }
+    .rg-weiter { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin: 12px 0 26px; }
+    .rg-weiter a { display: block; border: 1px solid rgba(127,127,127,.35); border-radius: 10px; padding: 12px 14px; text-decoration: none; font-weight: 700; }
+    .rg-weiter a span { display: block; font-weight: 400; font-size: 13.5px; opacity: .75; margin-top: 2px; }
+  </style>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Sicherheitsunterweisung im Büro: welche Themen Pflicht sind, wie oft unterwiesen wird und was im Homeoffice gilt","description":"Unterweisung im Büro: Themen von Brandschutz bis Bildschirmarbeit, wie oft, Ersthelfer und Homeoffice – mit Checkliste für Deutschland und Österreich.","inLanguage":"de","datePublished":"2026-11-22","dateModified":"2026-11-22","author":{"@type":"Organization","name":"Dexware","url":"https://dexware.app/"},"publisher":{"@type":"Organization","name":"Dexware","url":"https://dexware.app/"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://schutzdex.dexware.app/ratgeber-unterweisung-buero.html"},"image":"https://schutzdex.dexware.app/og-image.png"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"SchutzDex","item":"https://schutzdex.dexware.app/"},{"@type":"ListItem","position":2,"name":"Ratgeber","item":"https://dexware.app/ratgeber.html"},{"@type":"ListItem","position":3,"name":"Unterweisung im Büro","item":"https://schutzdex.dexware.app/ratgeber-unterweisung-buero.html"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ist eine Sicherheitsunterweisung im Büro Pflicht?","acceptedAnswer":{"@type":"Answer","text":"Ja. § 12 ArbSchG gilt für alle Beschäftigten, unabhängig von der Branche, also auch für Bürokräfte, Aushilfen und Auszubildende. Die Arbeitsstättenverordnung nennt in § 6 sogar ausdrücklich Themen, die dazugehören, etwa Erste Hilfe, Brandschutz, Fluchtwege und Bildschirmarbeit. In Österreich gilt § 14 ASchG, für Bildschirmarbeit zusätzlich § 13 Bildschirmarbeitsverordnung."}},{"@type":"Question","name":"Wie oft muss im Büro unterwiesen werden?","acceptedAnswer":{"@type":"Answer","text":"In Deutschland vor Aufnahme der Tätigkeit und danach mindestens jährlich (§ 6 Abs. 4 ArbStättV, § 4 DGUV Vorschrift 1), Jugendliche mindestens halbjährlich. Außerdem, wenn sich etwas wesentlich ändert, etwa nach einem Umzug. In Österreich vor Aufnahme der Tätigkeit, bei Änderungen, nach Unfällen oder Beinaheunfällen und erforderlichenfalls in regelmäßigen Abständen."}},{"@type":"Question","name":"Welche Themen gehören in eine Büro-Unterweisung?","acceptedAnswer":{"@type":"Answer","text":"Mindestens Brandschutz und Verhalten im Brandfall, Flucht- und Rettungswege, Erste Hilfe und Notruf, Bildschirmarbeit und Ergonomie, der Umgang mit elektrischen Geräten, Stolper- und Sturzgefahren sowie Wege und Verkehr auf dem Gelände. Welche Themen im einzelnen Büro dazukommen, ergibt sich aus der Gefährdungsbeurteilung."}},{"@type":"Question","name":"Gilt die Unterweisung auch im Homeoffice?","acceptedAnswer":{"@type":"Answer","text":"In Deutschland ja: Die Pflicht aus § 12 ArbSchG hängt an der Tätigkeit. Für fest eingerichtete Telearbeitsplätze gelten zusätzlich § 6 ArbStättV und die Vorgaben zur Bildschirmarbeit, soweit der Arbeitsplatz von dem im Betrieb abweicht (§ 1 Abs. 4 ArbStättV). Gelegentliches mobiles Arbeiten ist kein Telearbeitsplatz im Sinne der Arbeitsstättenverordnung, die Unterweisung nach dem Arbeitsschutzgesetz bleibt trotzdem Pflicht."}},{"@type":"Question","name":"Wie viele Ersthelfer braucht ein Büro?","acceptedAnswer":{"@type":"Answer","text":"In Deutschland bei 2 bis 20 anwesenden Versicherten einen Ersthelfer, bei mehr als 20 in Verwaltungs- und Handelsbetrieben 5 % (§ 26 DGUV Vorschrift 1). In Österreich in Büros bei bis zu 29 regelmäßig gleichzeitig Beschäftigten eine Person, bei 30 bis 49 zwei und je 20 weiteren eine zusätzliche (§ 40 AStV)."}},{"@type":"Question","name":"Wer darf im Büro unterweisen?","acceptedAnswer":{"@type":"Answer","text":"Verantwortlich ist der Arbeitgeber, durchführen können auch Führungskräfte wie Büro- oder Teamleitung. Fachkraft für Arbeitssicherheit, Betriebsarzt und Sicherheitsbeauftragte können laut DGUV Regel 100-001 beraten und mitwirken, aber nicht eigenverantwortlich unterweisen, weil ihnen die Weisungsbefugnis fehlt."}}]}</script>
+</head>
+<body>
+  <div class="sitehead">
+    <div class="wrap">
+      <header>
+        <a href="index.html" class="logo"><img src="assets/apps/schutzdex.webp" alt="SchutzDex Logo" width="40" height="40" /></a>
+        <span class="brand">SchutzDex</span>
+        <span class="nav-spacer"></span>
+        <nav class="nav">
+          <a href="index.html#features">Funktionen</a>
+          <a href="index.html#suite">Suite</a>
+          <a href="ratgeber-unterweisung.html" class="nav-cta">Ratgeber</a>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <article>
+      <div class="kicker">Ratgeber · Büro und Verwaltung</div>
+      <h1>Sicherheitsunterweisung im Büro: <span class="hl">Themen, Häufigkeit und Checkliste</span></h1>
+      <p class="land-hinweis" style="margin:16px 0 20px;padding:12px 16px;border:1px solid rgba(127,127,127,.35);border-radius:12px;font-size:14.5px;line-height:1.55"><strong>Gilt für welches Land?</strong> Dieser Ratgeber beschreibt die Rechtslage in <strong>Deutschland</strong> (ArbSchG, ArbStättV, DGUV Vorschrift 1) und in <strong>Österreich</strong> (§ 14 ASchG, Bildschirmarbeitsverordnung, AStV); der Abschnitt zum Homeoffice gilt nur für Deutschland. In der <strong>Schweiz</strong> gilt Art. 6 VUV.</p>
+      <p class="meta">Für Büroleitung, Verwaltung, Praxen und Kanzleien · Stand: November 2026 · Lesezeit ca. 6 Minuten</p>
+
+      <p class="lead">
+        Im Büro passiert selten etwas Spektakuläres, deshalb fällt die Unterweisung dort am häufigsten aus. Pflicht ist
+        sie trotzdem, für jede Bürokraft, jede Aushilfe und auch im Homeoffice. Hier steht, welche Themen in eine
+        Büro-Unterweisung gehören, wie oft sie fällig ist und wie ein kompakter Ablauf aussieht.
+      </p>
+
+      <div class="rg-kurz"><b>Die Antwort in Kürze</b>
+  <ul>
+    <li><strong>Pflicht auch im Büro:</strong> vor der ersten Tätigkeit und danach mindestens jährlich (§ 12 ArbSchG, § 6 ArbStättV, § 4 DGUV Vorschrift 1).</li>
+    <li><strong>Kernthemen:</strong> Brandschutz und Fluchtwege, Erste Hilfe, Bildschirmarbeit und Ergonomie, elektrische Geräte, Stolpern und Stürzen, Wege und Verkehr.</li>
+    <li><strong>Bildschirmarbeit:</strong> In Österreich verlangt § 13 BS-V eine eigene Unterweisung zum Umgang mit dem Gerät und zur ergonomischen Einstellung.</li>
+    <li><strong>Ersthelfer:</strong> Deutschland 1 bei 2 bis 20 Anwesenden, darüber 5 % in Verwaltungsbetrieben; Österreich in Büros 1 bis 29 Beschäftigte.</li>
+    <li><strong>Dokumentation je Thema:</strong> Datum, Inhalt, unterweisende Person und Unterschrift.</li>
+  </ul>
+</div>
+
+      <h2>Auch im Büro Pflicht</h2>
+      <p>
+        In Deutschland gilt <b>§ 12 ArbSchG</b> für alle Beschäftigten, unabhängig von der Branche. Die
+        <b>Arbeitsstättenverordnung</b> nennt in § 6 sogar ausdrücklich, was in die Unterweisung gehört:
+        Maßnahmen im Gefahrenfall wie die Bedienung von Sicherheits- und Warneinrichtungen, die Erste Hilfe und den
+        innerbetrieblichen Verkehr (Abs. 2), Brandverhütung und Verhalten im Brandfall mit Fluchtwegen und Notausgängen
+        (Abs. 3) sowie arbeitsplatzspezifische Maßnahmen, ausdrücklich auch an Bildschirmgeräten (Abs. 1 Nr. 4).
+        Unterwiesen wird vor Aufnahme der Tätigkeit und danach mindestens jährlich (Abs. 4), die DGUV Vorschrift 1
+        verlangt, dass die Unterweisung dokumentiert wird (§ 4).
+      </p>
+      <p>
+        In Österreich verpflichtet <b>§ 14 ASchG</b> zu einer ausreichenden und nachweislichen Unterweisung, vor
+        Aufnahme der Tätigkeit, bei Änderungen und nach Unfällen oder Beinaheunfällen. Für Bildschirmarbeit kommt
+        <b>§ 13 Bildschirmarbeitsverordnung</b> dazu: Unterweisung vor Aufnahme der Tätigkeit am Bildschirmgerät und bei
+        jeder wesentlichen Veränderung der Organisation des Arbeitsplatzes, im Umgang mit dem Gerät und zur ergonomisch
+        richtigen Einstellung der Arbeitsmittel. § 14 BS-V verlangt zusätzlich Informationen, unter anderem über das Recht
+        auf Untersuchungen, auf eine spezielle Sehhilfe und über Pausen bzw. Tätigkeitswechsel.
+      </p>
+
+      <h2>Die Themenliste fürs Büro</h2>
+      <p>Welche Themen im einzelnen Büro dazugehören, ergibt sich aus der Gefährdungsbeurteilung. Diese neun kommen fast überall vor:</p>
+<div class="tablewrap">
+  <table>
+    <thead><tr><th>Thema</th><th>Was konkret</th><th>Grundlage (Beispiele)</th></tr></thead>
+    <tbody>
+      <tr><td>1. Brandschutz</td><td>Alarmierung, Standorte der Feuerlöscher, Brandschutzhelfer, Brandschutzordnung</td><td>DE: § 6 Abs. 3 ArbStättV, ASR A2.2; AT: § 25 ASchG</td></tr>
+      <tr><td>2. Flucht- und Rettungswege</td><td>Verlauf, Notausgänge, Sammelplatz, Wege freihalten</td><td>DE: § 6 Abs. 3 ArbStättV</td></tr>
+      <tr><td>3. Erste Hilfe und Notruf</td><td>Ersthelfer, Verbandkasten, Notrufnummer, Meldung von Unfällen</td><td>DE: § 6 Abs. 2 ArbStättV, § 26 DGUV V1; AT: § 26 ASchG, § 40 AStV</td></tr>
+      <tr><td>4. Bildschirmarbeit und Ergonomie</td><td>Stuhl, Tisch und Bildschirm einstellen, Blendung vermeiden, Pausen und Tätigkeitswechsel</td><td>DE: Anhang Nr. 6 ArbStättV; AT: §§ 13, 14 BS-V</td></tr>
+      <tr><td>5. Elektrische Geräte</td><td>vor der Benutzung auf Schäden ansehen, Defekte melden, nicht selbst reparieren, Steckdosenleisten nicht hintereinanderstecken</td><td>Prüfung der Geräte: <a href="https://pruefdex.dexware.app/ratgeber-dguv-v3.html">DGUV Vorschrift 3</a></td></tr>
+      <tr><td>6. Stolpern, Rutschen, Stürzen</td><td>Kabel, offene Schubladen, nasse Böden; zum Hochgreifen einen Tritt statt eines Stuhls</td><td>Gefährdungsbeurteilung; <a href="https://leiterdex.dexware.app/ratgeber-arbeiten-auf-leitern.html">Arbeiten auf Leitern</a></td></tr>
+      <tr><td>7. Wege und Verkehr</td><td>Treppen, Parkplatz, im Winter Glätte auf dem Weg zum Eingang</td><td>DE: § 6 Abs. 2 Nr. 3 ArbStättV; <a href="https://winterdex.dexware.app/ratgeber-streupflicht-parkplatz-firmengelaende.html">Parkplatz und Gelände im Winter</a></td></tr>
+      <tr><td>8. Psychische Belastung</td><td>Arbeitsmenge, Unterbrechungen, wer bei Problemen ansprechbar ist</td><td>DE: § 5 Abs. 3 Nr. 6 ArbSchG (Gefährdungsbeurteilung)</td></tr>
+      <tr><td>9. Homeoffice</td><td>Arbeitsplatz einrichten, Pausen, wie ein Unfall gemeldet wird</td><td>DE: § 1 Abs. 4, § 2 Abs. 7 ArbStättV</td></tr>
+    </tbody>
+  </table>
+</div>
+
+      <h2>Wie viele Ersthelfer und Brandschutzhelfer braucht ein Büro?</h2>
+<div class="tablewrap">
+  <table>
+    <thead><tr><th></th><th>Deutschland</th><th>Österreich</th></tr></thead>
+    <tbody>
+      <tr><td>Ersthelfer</td><td>2 bis 20 anwesende Versicherte: 1; mehr als 20 in Verwaltungs- und Handelsbetrieben: 5 % (§ 26 Abs. 1 DGUV Vorschrift 1)</td><td>Büros: bis 29 regelmäßig gleichzeitig Beschäftigte 1, 30 bis 49 zwei, je 20 weitere eine zusätzliche Person (§ 40 Abs. 1 Z 2 AStV)</td></tr>
+      <tr><td>Auffrischung</td><td>in der Regel alle zwei Jahre (§ 26 Abs. 3 DGUV Vorschrift 1)</td><td>höchstens alle vier Jahre 8 Stunden oder alle zwei Jahre 4 Stunden (§ 40 Abs. 3 AStV)</td></tr>
+      <tr><td>Brandschutz</td><td>Brandschutzhelfer: in der Regel 5 % der Beschäftigten, je nach Gefährdung mehr (ASR A2.2 Abschnitt 7.3)</td><td>Personen für Brandbekämpfung und Evakuierung bestellen, ausreichend viele mit Feuerlöschern vertraut machen (§ 25 Abs. 4 ASchG)</td></tr>
+    </tbody>
+  </table>
+</div>
+      <p>Wer Ersthelfer und Brandschutzhelfer ist und wo Verbandkasten und Feuerlöscher hängen, gehört in jede Erstunterweisung. Nach einem Wechsel im Team wird die Info aktualisiert.</p>
+
+      <h2>Homeoffice: gilt die Unterweisung auch zu Hause? (Deutschland)</h2>
+      <p>
+        Ja. Die Unterweisungspflicht nach § 12 ArbSchG hängt an der Tätigkeit, nicht am Ort. Für fest eingerichtete
+        <b>Telearbeitsplätze</b>, also Bildschirmarbeitsplätze im Privatbereich, die der Arbeitgeber eingerichtet und
+        deren Bedingungen er mit den Beschäftigten vereinbart hat (§ 2 Abs. 7 ArbStättV), gelten zusätzlich § 6 ArbStättV
+        und Anhang Nr. 6 zur Bildschirmarbeit, soweit der Arbeitsplatz von dem im Betrieb abweicht (§ 1 Abs. 4 ArbStättV).
+        Gelegentliches mobiles Arbeiten ohne eingerichteten Telearbeitsplatz ist kein Telearbeitsplatz im Sinne der
+        Arbeitsstättenverordnung, die Unterweisung nach dem Arbeitsschutzgesetz bleibt trotzdem Pflicht. Sinnvolle Themen:
+        Arbeitsplatz einrichten, Pausen, Erreichbarkeit und wie ein Unfall gemeldet wird.
+      </p>
+
+      <h2>Ein kompakter Ablauf für die Büro-Unterweisung</h2>
+      <ol>
+        <li><b>Erstunterweisung am ersten Arbeitstag:</b> Fluchtweg ablaufen und Sammelplatz zeigen, Ersthelfer, Verbandkasten und Feuerlöscher zeigen, den eigenen Arbeitsplatz einstellen.</li>
+        <li><b>Jahresunterweisung:</b> Basisthemen auffrischen und erklären, was sich seit dem letzten Jahr geändert hat, etwa neue Räume, neue Geräte oder neue Ersthelfer.</li>
+        <li><b>Anlassbezogen:</b> nach Umzug oder Umbau, bei neuen Geräten und nach einem Unfall oder Beinaheunfall.</li>
+        <li><b>Besondere Gruppen:</b> Jugendliche unter 18 mindestens halbjährlich (§ 29 JArbSchG); bei Leiharbeit unterweist der Entleiher (§ 12 Abs. 2 ArbSchG).</li>
+        <li><b>In kleinen Portionen:</b> lieber mehrere kurze Termine mit je einem Thema als eine lange Sitzung mit allen Folien.</li>
+      </ol>
+
+      <div class="callout">
+        <div class="ch">Checkliste: Büro-Unterweisung</div>
+        <p>
+          ☐ Fluchtwege, Notausgänge und Sammelplatz gezeigt · ☐ Ersthelfer, Brandschutzhelfer, Verbandkasten und
+          Feuerlöscher benannt · ☐ Notruf und Unfallmeldung erklärt · ☐ Arbeitsplatz ergonomisch eingestellt ·
+          ☐ Umgang mit elektrischen Geräten · ☐ Stolperstellen und Tritte · ☐ Wege, Treppen und Parkplatz, im Winter
+          Glätte · ☐ Ansprechpartner bei Belastung · ☐ Homeoffice-Regeln · ☐ je Thema dokumentiert, mit Datum,
+          unterweisender Person und Unterschrift
+        </p>
+      </div>
+
+      <h2>Nachweis</h2>
+      <p>
+        Dokumentiert wird je Thema: Inhalt, Datum, Teilnehmer, unterweisende Person und Unterschrift, dazu am besten ein
+        Beleg, dass das Verständnis geprüft wurde. Wie das auch digital rechtssicher funktioniert, steht im Ratgeber
+        <a href="ratgeber-digitale-unterweisung.html">Digitale Unterweisung</a>, Pflichten und Fristen allgemein im Ratgeber
+        <a href="ratgeber-unterweisung.html">Jährliche Unterweisung</a>.
+      </p>
+
+      <h2>Quellen</h2>
+<ul class="rg-quellen">
+  <li><a href="https://www.gesetze-im-internet.de/arbschg/__12.html" rel="noopener">§ 12 ArbSchG</a> · <a href="https://www.gesetze-im-internet.de/arbschg/__5.html" rel="noopener">§ 5 ArbSchG</a> · <a href="https://www.gesetze-im-internet.de/arbst_ttv_2004/__6.html" rel="noopener">§ 6 ArbStättV</a> · <a href="https://www.gesetze-im-internet.de/arbst_ttv_2004/__2.html" rel="noopener">§ 2 ArbStättV</a> · <a href="https://www.gesetze-im-internet.de/jarbschg/__29.html" rel="noopener">§ 29 JArbSchG</a></li>
+  <li><a href="https://publikationen.dguv.de/widgets/pdf/download/article/2909" rel="noopener">DGUV Vorschrift 1, §§ 4 und 26</a> · <a href="https://publikationen.dguv.de/regelwerk/dguv-regeln/2942/grundsaetze-der-praevention-regel-zur-konkretisierung-der-dguv-vorschrift-1" rel="noopener">DGUV Regel 100-001 (2025)</a></li>
+  <li><a href="https://www.baua.de/DE/Angebote/Regelwerk/ASR/ASR-A2-2" rel="noopener">ASR A2.2 „Maßnahmen gegen Brände“, Abschnitt 7.3</a></li>
+  <li>Österreich: <a href="https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10008910&amp;Paragraf=14" rel="noopener">§ 14 ASchG</a> · <a href="https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10009121&amp;Paragraf=13" rel="noopener">§ 13 BS-V</a> · <a href="https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&amp;Gesetzesnummer=10009098&amp;Paragraf=40" rel="noopener">§ 40 AStV</a> · § 25 und § 26 ASchG</li>
+</ul>
+
+      <div class="band">
+        <h2>Büro-Unterweisung erstellen, am Handy durchgehen, nachweisen</h2>
+        <p>
+          In SchutzDex gibst du die Tätigkeit ein, etwa Büro, und auf Wunsch die Themen, zum Beispiel Brandschutz, Erste
+          Hilfe und Bildschirmarbeit. Die KI schreibt daraus die Unterweisung samt Verständnisfragen, du prüfst sie vor dem
+          Einsatz. Deine Mitarbeiter gehen sie am Handy durch, beantworten
+          den Verständnis-Check und unterschreiben auf dem Gerät. Die Übersicht zeigt, wer fällig ist und wer bestanden
+          hat, und vor Ablauf der Jahresfrist erinnert die App. Gratis für 1 Unterweisung und 2 Mitarbeiter, mit Pro
+          unbegrenzt und mit PDF-Nachweis.
+        </p>
+        <div class="cta">
+          <a class="btn" href="https://play.google.com/store/apps/details?id=com.safedex.app" target="_blank" rel="noopener">Bei Google Play ansehen</a>
+          <a class="btn ghost" href="index.html">Mehr über SchutzDex</a>
+        </div>
+      </div>
+
+      <h2>Häufige Fragen zur Unterweisung im Büro</h2>
+      <div class="faq">
+        <details>
+          <summary>Ist eine Sicherheitsunterweisung im Büro Pflicht?</summary>
+          <p>Ja. § 12 ArbSchG gilt für alle Beschäftigten, unabhängig von der Branche, also auch für Bürokräfte, Aushilfen und Auszubildende. Die Arbeitsstättenverordnung nennt in § 6 sogar ausdrücklich Themen, die dazugehören, etwa Erste Hilfe, Brandschutz, Fluchtwege und Bildschirmarbeit. In Österreich gilt § 14 ASchG, für Bildschirmarbeit zusätzlich § 13 Bildschirmarbeitsverordnung.</p>
+        </details>
+        <details>
+          <summary>Wie oft muss im Büro unterwiesen werden?</summary>
+          <p>In Deutschland vor Aufnahme der Tätigkeit und danach mindestens jährlich (§ 6 Abs. 4 ArbStättV, § 4 DGUV Vorschrift 1), Jugendliche mindestens halbjährlich. Außerdem, wenn sich etwas wesentlich ändert, etwa nach einem Umzug. In Österreich vor Aufnahme der Tätigkeit, bei Änderungen, nach Unfällen oder Beinaheunfällen und erforderlichenfalls in regelmäßigen Abständen.</p>
+        </details>
+        <details>
+          <summary>Welche Themen gehören in eine Büro-Unterweisung?</summary>
+          <p>Mindestens Brandschutz und Verhalten im Brandfall, Flucht- und Rettungswege, Erste Hilfe und Notruf, Bildschirmarbeit und Ergonomie, der Umgang mit elektrischen Geräten, Stolper- und Sturzgefahren sowie Wege und Verkehr auf dem Gelände. Welche Themen im einzelnen Büro dazukommen, ergibt sich aus der Gefährdungsbeurteilung.</p>
+        </details>
+        <details>
+          <summary>Gilt die Unterweisung auch im Homeoffice?</summary>
+          <p>In Deutschland ja: Die Pflicht aus § 12 ArbSchG hängt an der Tätigkeit. Für fest eingerichtete Telearbeitsplätze gelten zusätzlich § 6 ArbStättV und die Vorgaben zur Bildschirmarbeit, soweit der Arbeitsplatz von dem im Betrieb abweicht (§ 1 Abs. 4 ArbStättV). Gelegentliches mobiles Arbeiten ist kein Telearbeitsplatz im Sinne der Arbeitsstättenverordnung, die Unterweisung nach dem Arbeitsschutzgesetz bleibt trotzdem Pflicht.</p>
+        </details>
+        <details>
+          <summary>Wie viele Ersthelfer braucht ein Büro?</summary>
+          <p>In Deutschland bei 2 bis 20 anwesenden Versicherten einen Ersthelfer, bei mehr als 20 in Verwaltungs- und Handelsbetrieben 5 % (§ 26 DGUV Vorschrift 1). In Österreich in Büros bei bis zu 29 regelmäßig gleichzeitig Beschäftigten eine Person, bei 30 bis 49 zwei und je 20 weiteren eine zusätzliche (§ 40 AStV).</p>
+        </details>
+        <details>
+          <summary>Wer darf im Büro unterweisen?</summary>
+          <p>Verantwortlich ist der Arbeitgeber, durchführen können auch Führungskräfte wie Büro- oder Teamleitung. Fachkraft für Arbeitssicherheit, Betriebsarzt und Sicherheitsbeauftragte können laut DGUV Regel 100-001 beraten und mitwirken, aber nicht eigenverantwortlich unterweisen, weil ihnen die Weisungsbefugnis fehlt.</p>
+        </details>
+      </div>
+
+<div class="rg-weiter">
+  <a href="ratgeber-unterweisungsthemen.html">Unterweisungsthemen<span>Themen für alle Bereiche und Jahresplan</span></a>
+  <a href="ratgeber-digitale-unterweisung.html">Digitale Unterweisung<span>Unterschrift, Nachweis, Wiederholung</span></a>
+  <a href="ratgeber-gefaehrdungsbeurteilung.html">Gefährdungsbeurteilung<span>in 7 Schritten erstellen</span></a>
+</div>
+
+      <p class="disclaimer">
+        Dieser Ratgeber gibt einen allgemeinen Überblick (Stand 11/2026) und ersetzt keine Rechtsberatung. Maßgeblich
+        sind die aktuellen Fassungen von ArbSchG, ArbStättV und DGUV Vorschrift 1 bzw. ASchG, BS-V und AStV sowie die
+        Gefährdungsbeurteilung des Betriebs.
+      </p>
+
+      <a class="backlink" href="index.html">← Zurück zur Startseite</a>
+    </article>
+
+    <footer class="legal">
+      © <span id="y"></span> SchutzDex. KI-generierte Inhalte sind eine fachliche Hilfestellung
+      und ersetzen keine individuelle Gefährdungsbeurteilung; vor dem Einsatz fachlich prüfen lassen.
+      · <a href="ratgeber-unterweisung.html">Ratgeber Unterweisung</a> · <a href="ratgeber-unterweisungsthemen.html">Unterweisungsthemen</a> · <a href="ratgeber-digitale-unterweisung.html">Digitale Unterweisung</a> · <a href="ratgeber-unterweisung-buero.html">Unterweisung im Büro</a> · <a href="ratgeber-gefaehrdungsbeurteilung.html">Gefährdungsbeurteilung</a> · <a href="ratgeber-fahrerunterweisung.html">Fahrerunterweisung</a> · <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · <a href="konto-loeschen.html">Konto löschen</a>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
