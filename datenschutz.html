@@ -53,7 +53,7 @@
     </header>
 
     <h1>Datenschutzerklärung</h1>
-    <p class="muted">Stand: 25.06.2026 · Gilt für die App „SchutzDex".</p>
+    <p class="muted">Stand: 24.11.2026 · Gilt für die App „SchutzDex" und diese Website.</p>
 
 
     <h2>1. Verantwortlicher</h2>
@@ -90,19 +90,46 @@
     <h2>4. KI-Generierung von Unterweisungsinhalten</h2>
     <p>
       Zum Erstellen von Unterweisungs- und Gefährdungsbeurteilungs-Vorlagen rufen wir über einen eigenen
-      Server-Proxy (Cloudflare Worker, EU) das KI-Modell <strong>Anthropic Claude</strong> auf. An die KI werden
+      Server-Proxy (Cloudflare Worker) das KI-Modell <strong>Anthropic Claude</strong> auf. An die KI werden
       ausschließlich <strong>nicht-personenbezogene</strong> Parameter übergeben (z. B. Branche, Tätigkeit, gewählte Themen, Land).
       <strong>Personenbezogene Mitarbeiterdaten werden nicht an die KI übermittelt.</strong> Die generierten Inhalte
       sind eine fachliche Hilfestellung und ersetzen keine individuelle Prüfung.
     </p>
 
+    <h2>4a. E-Mails von uns</h2>
+    <p>Anmelde-, Bestätigungs- und Passwort-Mails versenden wir über den Versanddienst Brevo (Sendinblue SAS, Frankreich).</p>
+    <p>Wenn Sie in mindestens einer Dexware-App angemeldet sind, erhalten Sie außerdem montags eine kurze Übersicht der
+      fälligen und überfälligen Unterweisungen und Prüfungen und am Monatsanfang eine Übersicht der im Vormonat
+      abgeschlossenen Unterweisungen und Prüfungen. Damit Sie nur eine Mail bekommen, fassen wir dafür die Angaben aller
+      Dexware-Apps zusammen, in denen Sie mit derselben E-Mail-Adresse angemeldet sind; dazu gleichen wir Ihre
+      E-Mail-Adresse zwischen den Datenbanken dieser Apps ab. Die Mails können Namen von Objekten, Geräten, Fahrzeugen oder
+      Personen (z. B. Mitarbeitenden) enthalten, die in Ihrem Betrieb erfasst sind. Die Wochen-Übersicht kann außerdem
+      kurze Hinweise auf andere Dexware-Apps enthalten. Versand über Resend (Plus Five Five, Inc., USA) auf Grundlage der
+      EU-Standardvertragsklauseln. Rechtsgrundlage: unser berechtigtes Interesse, Sie an Fristen zu erinnern und Ihre
+      Nachweise zusätzlich im Postfach zu sichern (Art. 6 Abs. 1 lit. f DSGVO). Sie können die Übersichten jederzeit über
+      den Link in jeder Mail abbestellen und den Hinweisen auf andere Apps jederzeit widersprechen (formlos an
+      support@dexware.app); die Abmeldung speichern wir als Prüfwert (Hash) Ihrer E-Mail-Adresse.</p>
+
+    <h2>4b. Rückmeldungen („Fehler melden“, „Verbesserung vorschlagen“)</h2>
+    <p>Wenn Sie uns in der App eine Rückmeldung schicken, speichern wir Ihren Text, den Zeitpunkt, die App-Version,
+      Gerätetyp und Betriebssystem sowie die Kennung und E-Mail-Adresse Ihres Kontos, damit wir antworten können.
+      Gespeichert wird auf unserem zentralen Dexware-Server bei Supabase (Rechenzentrum EU). Bitte schreiben Sie keine
+      Daten anderer Personen in die Nachricht. Rechtsgrundlage: Art. 6 Abs. 1 lit. b und f DSGVO (Support und
+      Verbesserung der App). Rückmeldungen bewahren wir auf, solange wir sie für Bearbeitung und Weiterentwicklung
+      brauchen; auf Wunsch löschen wir sie jederzeit (E-Mail an datenschutz@dexware.app).</p>
+
     <h2>5. Empfänger / Auftragsverarbeiter</h2>
     <ul>
-      <li><strong>Supabase</strong> (Datenbank, Auth, Datei-Speicher) — Hosting in der EU-Region.</li>
-      <li><strong>Cloudflare</strong> (KI-Proxy / Worker) — EU-Verarbeitung.</li>
-      <li><strong>Anthropic</strong> (KI-Modell Claude) — siehe Abschnitt 4, ohne personenbezogene Daten.</li>
-      <li><strong>RevenueCat</strong> sowie <strong>Apple</strong> / <strong>Google</strong> — Abo- und Zahlungsabwicklung über die App-Stores.</li>
+      <li><strong>Supabase</strong> (Supabase Pte. Ltd., Singapur; Datenbank, Auth, Datei-Speicher) — Hosting in der EU-Region; EU-Standardvertragsklauseln.</li>
+      <li><strong>Cloudflare</strong> (Cloudflare, Inc., USA; KI-Proxy / Worker) — KI-Schnittstelle im globalen Netz, keine Speicherung der Inhalte; EU-Standardvertragsklauseln.</li>
+      <li><strong>Anthropic</strong> (Anthropic PBC, USA; KI-Modell Claude) — siehe Abschnitt 4, ohne personenbezogene Daten.</li>
+      <li><strong>RevenueCat</strong> (RevenueCat, Inc., USA; Kaufstatus mit pseudonymer Kennung; EU-Standardvertragsklauseln) sowie <strong>Apple</strong> / <strong>Google</strong> — Abo- und Zahlungsabwicklung über die App-Stores.</li>
+      <li><strong>Brevo</strong> (Sendinblue SAS, Frankreich) — Versand von Anmelde-, Bestätigungs- und Passwort-Mails.</li>
+      <li><strong>Resend</strong> (Plus Five Five, Inc., USA) — Versand der Wochen- und Monatsübersichten per E-Mail; EU-Standardvertragsklauseln.</li>
+      <li><strong>GitHub</strong> (GitHub, Inc., USA) — Auslieferung dieser Website, siehe Abschnitt 9.</li>
     </ul>
+    <p>Nutzung im Browser (Dexware-Dashboard, „Vor Ort“): siehe
+      <a href="https://dexware.app/datenschutz.html">dexware.app/datenschutz.html</a>, Abschnitt 6a.</p>
     <p class="muted">
       Soweit Verarbeitungen außerhalb der EU/des EWR stattfinden, erfolgt dies auf Grundlage von
       EU-Standardvertragsklauseln bzw. eines Angemessenheitsbeschlusses.
@@ -132,6 +159,13 @@
       gemacht werden. Alternativ können Sie die Löschung per E-Mail an
       datenschutz@dexware.app beantragen.
     </p>
+
+    <h2>9. Diese Website</h2>
+    <p>Diese Website wird über GitHub Pages (GitHub, Inc., USA) ausgeliefert. Beim Aufruf verarbeitet GitHub technisch
+      bedingt Server-Logdaten (IP-Adresse, Zeitpunkt, abgerufene Seite); wir werten sie nicht aus. Rechtsgrundlage:
+      Art. 6 Abs. 1 lit. f DSGVO (sicherer Betrieb). Übermittlung in die USA auf Grundlage des EU-US Data Privacy
+      Framework bzw. der EU-Standardvertragsklauseln. Die Website setzt keine Cookies und bindet keine Tracker, Schriften
+      oder Skripte Dritter ein.</p>
 
     <a class="back" href="index.html">← Zurück zur Startseite</a>
   </div>
