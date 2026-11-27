@@ -1,6 +1,6 @@
 # SchutzDex
 
-> SchutzDex ist eine App von Dexware. Arbeitsschutzunterweisung per App: KI-Unterweisung je Tätigkeit, Verständnis-Check, Unterschrift und PDF-Nachweis – plus Gefährdungsbeurteilung. Android-App bei Google Play, am iPhone im Browser. Gratis: 1 Unterweisung; Pro 14,99 € im Monat.
+> SchutzDex ist eine App von Dexware. Arbeitsschutzunterweisung per App: KI-Unterweisung je Tätigkeit, Verständnis-Check, Unterschrift und PDF-Nachweis – plus Gefährdungsbeurteilung. Android-App bei Google Play, am iPhone im Browser. Gratis: 1 Unterweisung; Pro 14,99 € im Monat oder 119,99 € im Jahr.
 
 Sachliche Kurzinfo für Sprachmodelle und Suchdienste. Maßgeblich sind die Angaben auf https://schutzdex.dexware.app/. Anbieter: Dexware (https://dexware.app/), Kontakt: support@dexware.app.
 
@@ -22,13 +22,21 @@ Unterweisen und unterschreiben lassen läuft in der App. Im Dexware-Dashboard am
 ## Preise
 
 - Gratis (zum Ausprobieren): 1 Unterweisung; Bis 2 Mitarbeiter; Verständnis-Check; Unterschriebener Nachweis in der App
-- Pro: 14,99 € im Monat oder günstiger im Jahresabo. Enthält: Unbegrenzt Unterweisungen per KI; Unbegrenzt Mitarbeiter; Gefährdungsbeurteilung inkl. Selbsterklärung; PDF-Nachweise exportieren & teilen; Eigenes Logo & Akzentfarbe
+- Pro: 14,99 € im Monat oder 119,99 € im Jahr. Enthält: Unbegrenzt Unterweisungen per KI; Unbegrenzt Mitarbeiter; Gefährdungsbeurteilung inkl. Selbsterklärung; PDF-Nachweise exportieren & teilen; Eigenes Logo & Akzentfarbe
 - Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
 - Preise inkl. MwSt., Abo jederzeit kündbar.
+
+## Was SchutzDex nicht ist
+
+- Kein Ersatz für die Fachkraft für Arbeitssicherheit: Die KI liefert eine fachliche Grundlage, die du vor dem Einsatz prüfst. Die Verantwortung für Inhalt und Durchführung bleibt beim Arbeitgeber; SchutzDex unterstützt bei der Dokumentation und ersetzt keine fachliche Beurteilung.
+- Keine Rechtsberatung: Die Ratgeber von SchutzDex geben die Vorschriften allgemein verständlich wieder und ersetzen keine Rechtsberatung.
+- Eine iPhone-App im App Store gibt es noch nicht; am iPhone und iPad läuft SchutzDex im Browser (Unterweisungen durchführen — lesen, Verständnis-Check, Unterschrift am Handy). Unterweisungen mit KI erstellen, Gefährdungsbeurteilung und Nachweis-PDF gibt es vorerst nur in der Android-App.
 
 ## Kurz beantwortet
 
 - Sicherheitsunterweisung: Software am PC oder App am Handy? Durchgeführt wird in der App: Unterweisung, Verständnis-Check und Unterschrift laufen am Handy. Den Überblick über Mitarbeiter, Unterweisungen und Nachweise hast du zusätzlich im Dexware-Dashboard im Browser.
+- Ist eine digitale Unterweisung per App erlaubt? Ja. Weder das Arbeitsschutzgesetz noch die DGUV Vorschrift 1 schreiben eine bestimmte Form vor, digitale Hilfsmittel sind zulässig. Rückfragen an die unterweisende Person müssen aber möglich sein, Unterlagen nur zum Selbststudium reichen nicht (DGUV Regel 100-001, Ausgabe 2025), und das Verständnis muss geprüft werden.
+- Muss eine Unterweisung unterschrieben werden? In Deutschland nach der DGUV Vorschrift 1 nicht, eine Unterschrift der Unterwiesenen erleichtert aber den Nachweis. Einige staatliche Vorschriften verlangen ausdrücklich eine schriftliche Dokumentation oder eine Unterschrift.
 - Wie oft muss im Betrieb unterwiesen werden? Vor Aufnahme der Tätigkeit und bei Veränderungen (§ 12 ArbSchG), danach mindestens einmal jährlich (DGUV Vorschrift 1 § 4), für Jugendliche halbjährlich.
 - Welche Unterweisungsthemen sind Pflicht? Eine feste Themenliste schreibt das Gesetz nicht vor: Jedes Unterweisungsthema ergibt sich aus der Gefährdungsbeurteilung. Brandschutz, Erste Hilfe und Fluchtwege betreffen alle, dazu kommen Themen je Tätigkeit wie Maschinen, PSA oder Gefahrstoffe.
 - Ersetzt die KI eine Fachkraft für Arbeitssicherheit? Nein. Die KI liefert eine fachliche Grundlage, die du vor dem Einsatz prüfst. An deinen Betrieb passt du sie über Tätigkeit und Themen an; Gefährdungen kannst du einzeln bearbeiten.
