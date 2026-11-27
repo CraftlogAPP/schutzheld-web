@@ -1,0 +1,63 @@
+# SchutzDex
+
+> SchutzDex ist eine App von Dexware. Arbeitsschutzunterweisung per App: KI-Unterweisung je Tätigkeit, Verständnis-Check, Unterschrift und PDF-Nachweis – plus Gefährdungsbeurteilung. Android-App bei Google Play, am iPhone im Browser. Gratis: 1 Unterweisung; Pro 14,99 € im Monat.
+
+Sachliche Kurzinfo für Sprachmodelle und Suchdienste. Maßgeblich sind die Angaben auf https://schutzdex.dexware.app/. Anbieter: Dexware (https://dexware.app/), Kontakt: support@dexware.app.
+
+## Was SchutzDex macht
+
+- KI-Unterweisung: Branchen- und tätigkeitsgenau erstellt statt generischer Vorlage. Der Verständnis-Check mit interaktiven Fragen belegt, dass die Inhalte angekommen sind.
+- Gefährdungsbeurteilung: Mit Pro, inklusive Selbsterklärung für Berufsgenossenschaft, Arbeitsinspektorat oder Suva. Die Übersicht zeigt sofort, wer fällig ist und wer bestanden hat.
+- Nachweis als PDF: Mit digitaler Unterschrift und Ergebnis. Mit Pro als PDF auf Knopfdruck, mit deinem Logo und deiner Akzentfarbe.
+
+## Am PC im Dexware-Dashboard
+
+Unterweisen und unterschreiben lassen läuft in der App. Im Dexware-Dashboard am Computer legst du fest, wer was bis wann braucht, und siehst alle Nachweise — mit demselben Konto.
+
+- Überfällige Unterweisungen: Die Übersicht zeigt, wer welche Unterweisung schon hätte haben müssen, dazu die letzten Nachweise.
+- Zuweisungen: Unterweisung je Mitarbeiter, mit Fälligkeit und Wiederholung: jährlich, halbjährlich oder einmalig.
+- Nachweise: Mit Verständnis-Check, Klarname und Gerät. Gespeicherte Nachweise bleiben unverändert.
+- Excel-Übersicht: Mitarbeiter × Unterweisung: wer bis wann dran ist, dazu alle Nachweise.
+
+## Preise
+
+- Gratis (zum Ausprobieren): 1 Unterweisung; Bis 2 Mitarbeiter; Verständnis-Check; Unterschriebener Nachweis in der App
+- Pro: 14,99 € im Monat oder günstiger im Jahresabo. Enthält: Unbegrenzt Unterweisungen per KI; Unbegrenzt Mitarbeiter; Gefährdungsbeurteilung inkl. Selbsterklärung; PDF-Nachweise exportieren & teilen; Eigenes Logo & Akzentfarbe
+- Dexware Suite (Prüf-Paket): alle 9 Prüf-Apps der Suite (GurtDex, ToreDex, GerüstDex, FeuerDex, LeiterDex, RegalDex, PrüfDex, SchutzDex, HebeDex) für 24,99 € im Monat oder 199,99 € im Jahr (entspricht 16,67 € im Monat), ab 3 Prüf-Apps günstiger als einzeln.
+- Preise inkl. MwSt., Abo jederzeit kündbar.
+
+## Kurz beantwortet
+
+- Sicherheitsunterweisung: Software am PC oder App am Handy? Durchgeführt wird in der App: Unterweisung, Verständnis-Check und Unterschrift laufen am Handy. Den Überblick über Mitarbeiter, Unterweisungen und Nachweise hast du zusätzlich im Dexware-Dashboard im Browser.
+- Wie oft muss im Betrieb unterwiesen werden? Vor Aufnahme der Tätigkeit und bei Veränderungen (§ 12 ArbSchG), danach mindestens einmal jährlich (DGUV Vorschrift 1 § 4), für Jugendliche halbjährlich.
+- Welche Unterweisungsthemen sind Pflicht? Eine feste Themenliste schreibt das Gesetz nicht vor: Jedes Unterweisungsthema ergibt sich aus der Gefährdungsbeurteilung. Brandschutz, Erste Hilfe und Fluchtwege betreffen alle, dazu kommen Themen je Tätigkeit wie Maschinen, PSA oder Gefahrstoffe.
+- Ersetzt die KI eine Fachkraft für Arbeitssicherheit? Nein. Die KI liefert eine fachliche Grundlage, die du vor dem Einsatz prüfst. An deinen Betrieb passt du sie über Tätigkeit und Themen an; Gefährdungen kannst du einzeln bearbeiten.
+- Was passiert mit den Daten meiner Mitarbeiter? Datenbank und Dateien liegen in der EU-Region. An das KI-Modell gehen keine personenbezogenen Daten, mehr dazu in der Datenschutzerklärung.
+- Was verlangen Österreich und die Schweiz? In Österreich regelt § 14 ASchG die Unterweisung: vor Aufnahme der Tätigkeit, bei Änderungen und erforderlichenfalls in regelmäßigen Abständen, eine feste Jahresfrist nennt das Gesetz dort nicht.
+- Alle Antworten: https://schutzdex.dexware.app/#faq
+
+## Seiten
+
+- [Startseite](https://schutzdex.dexware.app/): Funktionen, Preise, häufige Fragen
+- [Preise](https://schutzdex.dexware.app/#preise): Gratis und Pro
+- [Häufige Fragen](https://schutzdex.dexware.app/#faq)
+- [SchutzDex am iPhone](https://schutzdex.dexware.app/#iphone): im Browser, ohne App Store
+- [Dexware-Dashboard](https://dashboard.dexware.app/app/schutzdex): am PC im Browser, mit demselben Konto
+- [Google Play](https://play.google.com/store/apps/details?id=com.safedex.app): Android-App
+- [Dexware](https://dexware.app/): alle Apps von Dexware
+
+## Ratgeber
+
+- [Digitale Unterweisung: Unterschrift & Nachweis](https://schutzdex.dexware.app/ratgeber-digitale-unterweisung.html): Unterweisung per App oder online: was ArbSchG, DGUV Vorschrift 1, DGUV Regel 100-001 und § 14 ASchG zu Unterschrift, Nachweis und Wiederholung sagen.
+- [Fahrerunterweisung: Pflicht, Themen, Nachweis](https://schutzdex.dexware.app/ratgeber-fahrerunterweisung.html): Müssen Fahrer von Firmenwagen jährlich unterwiesen werden? Pflicht nach DGUV V1 und V70, 10 Themen für die Fahrerunterweisung und was in den Nachweis gehört.
+- [Gefährdungsbeurteilung erstellen: 7 Schritte](https://schutzdex.dexware.app/ratgeber-gefaehrdungsbeurteilung.html): Gefährdungsbeurteilung nach §§ 5 und 6 ArbSchG: wer sie braucht, die 7 Schritte, was in die Dokumentation gehört (Muster-Gliederung), wann sie aktualisiert werden muss und was ohne sie droht. Praxis-Ratgeber für Betriebe.
+- [Unterweisung im Büro: Themen & Checkliste](https://schutzdex.dexware.app/ratgeber-unterweisung-buero.html): Unterweisung im Büro: Themen von Brandschutz bis Bildschirmarbeit, wie oft, Ersthelfer und Homeoffice – mit Checkliste für Deutschland und Österreich.
+- [Jährliche Unterweisung: Pflicht, Inhalte, Nachweis](https://schutzdex.dexware.app/ratgeber-unterweisung.html): Unterweisung nach ArbSchG § 12 und DGUV Vorschrift 1: Wie oft unterwiesen werden muss, wer unterweisen darf, welche Inhalte hineingehören und wie der Nachweis nachvollziehbar wird. Praxis-Ratgeber für Betriebe.
+- [Unterweisungsthemen: Liste, Pflicht-Unterweisungen & Jahresplan](https://schutzdex.dexware.app/ratgeber-unterweisungsthemen.html): Unterweisungsthemen als Liste nach Bereich, welche Unterweisungen gesetzlich vorgeschrieben sind (ArbSchG, DGUV V1, GefStoffV, JArbSchG), ein Beispiel-Unterweisungsplan fürs Jahr und wie jedes Thema dokumentiert wird.
+
+## Rechtliches
+
+- [Impressum](https://schutzdex.dexware.app/impressum.html)
+- [Datenschutz](https://schutzdex.dexware.app/datenschutz.html)
+- [AGB](https://schutzdex.dexware.app/agb.html)
+- [AVV](https://schutzdex.dexware.app/avv.html)
