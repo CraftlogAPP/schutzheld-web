@@ -58,10 +58,10 @@ Unterweisen und unterschreiben lassen läuft in der App. Im Dexware-Dashboard am
 
 - [Digitale Unterweisung: Unterschrift & Nachweis](https://schutzdex.dexware.app/ratgeber-digitale-unterweisung.html): Unterweisung per App oder online: was ArbSchG, DGUV Vorschrift 1, DGUV Regel 100-001 und § 14 ASchG zu Unterschrift, Nachweis und Wiederholung sagen.
 - [Fahrerunterweisung: Pflicht, Themen, Nachweis](https://schutzdex.dexware.app/ratgeber-fahrerunterweisung.html): Müssen Fahrer von Firmenwagen jährlich unterwiesen werden? Pflicht nach DGUV V1 und V70, 10 Themen für die Fahrerunterweisung und was in den Nachweis gehört.
-- [Gefährdungsbeurteilung erstellen: 7 Schritte](https://schutzdex.dexware.app/ratgeber-gefaehrdungsbeurteilung.html): Gefährdungsbeurteilung nach §§ 5 und 6 ArbSchG: wer sie braucht, die 7 Schritte, was in die Dokumentation gehört (Muster-Gliederung), wann sie aktualisiert werden muss und was ohne sie droht. Praxis-Ratgeber für Betriebe.
+- [Gefährdungsbeurteilung erstellen: 7 Schritte](https://schutzdex.dexware.app/ratgeber-gefaehrdungsbeurteilung.html): Gefährdungsbeurteilung nach §§ 5 und 6 ArbSchG: wer sie braucht, die 7 Schritte, was in die Dokumentation gehört und wann sie aktualisiert werden muss.
 - [Unterweisung im Büro: Themen & Checkliste](https://schutzdex.dexware.app/ratgeber-unterweisung-buero.html): Unterweisung im Büro: Themen von Brandschutz bis Bildschirmarbeit, wie oft, Ersthelfer und Homeoffice – mit Checkliste für Deutschland und Österreich.
-- [Jährliche Unterweisung: Pflicht, Inhalte, Nachweis](https://schutzdex.dexware.app/ratgeber-unterweisung.html): Unterweisung nach ArbSchG § 12 und DGUV Vorschrift 1: Wie oft unterwiesen werden muss, wer unterweisen darf, welche Inhalte hineingehören und wie der Nachweis nachvollziehbar wird. Praxis-Ratgeber für Betriebe.
-- [Unterweisungsthemen: Liste, Pflicht-Unterweisungen & Jahresplan](https://schutzdex.dexware.app/ratgeber-unterweisungsthemen.html): Unterweisungsthemen als Liste nach Bereich, welche Unterweisungen gesetzlich vorgeschrieben sind (ArbSchG, DGUV V1, GefStoffV, JArbSchG), ein Beispiel-Unterweisungsplan fürs Jahr und wie jedes Thema dokumentiert wird.
+- [Jährliche Unterweisung: Pflicht, Inhalte, Nachweis](https://schutzdex.dexware.app/ratgeber-unterweisung.html): Unterweisung nach § 12 ArbSchG und DGUV Vorschrift 1: wie oft, wer unterweisen darf, welche Inhalte hineingehören und wie der Nachweis gelingt.
+- [Unterweisungsthemen: Liste & Jahresplan](https://schutzdex.dexware.app/ratgeber-unterweisungsthemen.html): Unterweisungsthemen als Liste nach Bereich: welche Unterweisungen Pflicht sind (ArbSchG, DGUV V1, GefStoffV, JArbSchG), Beispiel-Jahresplan, Dokumentation.
 
 ## Rechtliches
 
